@@ -1,33 +1,33 @@
-# GraphPattern2vec
+# RegPattern2Vec
 
 ## Introduction 
 
 
 
-This repository contains the code and datasets for the manuscript "".   
+This repository contains the code and datasets for the manuscript "Predicting Protein and Pathway Associations for Understudied Dark Kinases using Pattern-constrained Knowledge Graph Embedding".   
 
 
 #### Included in this repository are the following: 
 
-- DownloadLinkForData.txt file
-  - you must open this file and download the link from this file
-  - it contains KG, embeddings, uniprot2genename, and reactome2pathwayname files 
+- DownloadLinkForData.txt file 
+  - you must open this file and download the link: _______ 
+   - Download includes KG, embeddings, uniprot2genename, and reactome2pathwayname files (appox. size)
   
 - 2 jupyter lab notebooks files
-  - one for measruing the accuracy 
-  - one for predictions
+  - notebook for measruing the accuracy (title)
+  - notebook for link prediction generation (title)
   
-- gp2v.yml file
-  - this has the can be used to create the environment 
+- gp2v.yml file (Name change?)
+  - file used to create the environment 
   
-- graphpattern2vec folders 
-  - this folder holds the objects/funtions of graphpattern2vec
+- RegPattern2Vec folders (one or multiple folders?)
+  - folder holds the objects/funtions of RegPattern2Vec
 
 - Readme.md file
-  - Your reading it right now
+  - You're reading it right now
   
 - model folder 
-  - will hold temperary files 
+  - folder holds temporary files 
 
 
 ## Installing dependencies  
@@ -52,9 +52,9 @@ Todo update copy paste for badges
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 
 
-## Downloading this repository 
+## Downloading the repository 
 ``` 
-git clone https://github.com/gravelCompBio/GraphPattern2vec.git
+git clone https://github.com/gravelCompBio/GraphPattern2vec.git  (Change Name!)
  ``` 
  ``` 
 cd GraphPatter2vec/ 
@@ -67,7 +67,7 @@ https://outlookuga-my.sharepoint.com/:u:/g/personal/nmg60976_uga_edu/EatErUI0YUN
 
 
 ## Installing dependencies with conda ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
-the yml file is in GraphPatter2Vec file and is named "gp2v.yml"
+the yml file is in RegPatter2Vec file and is named "gp2v.yml" (change name?)
 ``` 
 conda env create -f gp2v.yml -n gp2v
 ``` 
@@ -96,7 +96,7 @@ or
 
 # Before running the link prediction in either notebook generate your own embeddings  !!!!!!  PLEASE READ THIS SECTION !!!!!!
 
-1) double check you downloaded all files of the Knowlege graph and embedding files from the "Downloading this repository " section
+1) Confirm downloaded all files of the Knowlege graph and embedding files from the "Downloading this repository " section
 
 2) after you preform the random walk in sections of the code in either notebook, you can use the embbeding files we provided. If you wish to generate you own embedding you can preform metapath2vec off the random walk to re-generate new embbeding files. (see section below for metapath2vec instructrions)
 
